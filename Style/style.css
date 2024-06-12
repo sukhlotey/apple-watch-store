@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rootContainer {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+}
+.navMenu,
+.socialIcon {
+  position: absolute;
+}
+.navMenu {
+  height: auto;
+  left: 10px;
+  top: 30px;
+}
+.socialIcon {
+  bottom: 50px;
+  left: 10px;
+}
+.mainContainer {
+  background: linear-gradient(294.28deg, #c8dce6 0%, #b6ccda 100%);
+  height: 100vh;
+  margin-left: 70px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  flex: 1;
+  padding: 0 5% 0 5%;
+}
+.rootNav {
+  display: flex;
+  justify-content: space-between;
+}
+.appleLogo {
+  margin-top: 10px;
+  margin-left: 100px;
+  line-height: 30px;
+}
+.navItems a {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+.navItems .bgActive {
+  background-color: #fff;
+  border-radius: 100px;
+  width: 170px;
+  color: #b6ccda;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+.searchIcon {
+  margin-top: 20px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.searchThings {
+  padding-left: 10px;
+  cursor: pointer;
+}
+.searchInput {
+  position: absolute;
+  right: 40px;
+  width: 0;
+  padding: 10px;
+  border: 0;
+  border-radius: 100px;
+  outline: none;
+  opacity: 0;
+  background-color: #ffffff83;
+  transition: width 0.3s ease, opacity 0.3s ease;
+  &::placeholder {
+    color: #fff;
+  }
+}
+
+.searchInput.visible {
+  width: 200px;
+  opacity: 1;
+}
+.sectionBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.buyNowBtn {
+  border: 2px solid #fff;
+  padding: 12px 80px;
+  border-radius: 100px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+}
+
+.watchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.watchAndDots {
+  display: flex;
+  align-items: center;
+}
+
+.watchImage {
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+
+.watchesSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.watches img {
+  margin: 0 10px;
+}
+.dotChain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+
+.dot1 {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #404354;
+  cursor: pointer;
+}
+.dot2 {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #abc6d6;
+  cursor: pointer;
+}
+.dot3 {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #58d7c4;
+  cursor: pointer;
+}
+.dot4 {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #f2cec6;
+  cursor: pointer;
+}
+.dotLine {
+  height: 15px;
+  border-left: 1px dotted #000;
+}
