@@ -2,68 +2,128 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apple Watch Store</title>
+    <title>Apple Watch</title>
     <link rel="stylesheet" href="./Style/style.css" />
   </head>
+
   <body>
-    <div class="rootContainer">
-      <img class="navMenu" src="./Images/Nav Menu.png" alt="" />
-
-      <img class="socialIcon" src="./Images/Social Icon.png" alt="" />
-
-      <div class="mainContainer">
-        <div class="rootNav">
-          <nav class="navItems">
-            <img class="appleLogo" src="./Images/Logo.png" alt="" />
-            <a href="#" class="item">Mac</a>
-            <a href="#" class="item">iPhone</a>
-            <a href="#" class="item">iPad</a>
-            <a href="#" class="item bgActive">iWatch</a>
-            <a href="#" class="item">Support</a>
-          </nav>
-          <nav class="searchIcon">
-            <img class="searchThings searchIconImage" src="./Images/search.png" alt="" />
-            <img class="searchThings" src="./Images/Vector 4.png" alt="" />
-            <img class="searchThings" src="./Images/shopping-bag.png" alt="" />
-        <input type="text" class="searchInput" placeholder="Search here">
-          </nav>
+    <div class="containerSection">
+      <div class="left">
+        <div>
+          <img
+            id="navMenu"
+            class="navMenu"
+            src="./Images/Nav Menu.png"
+            alt="Menu"
+          />
         </div>
+        <div class="iconSocial">
+          <img
+            class="socialIcon"
+            src="./Images/brandico_facebook.png"
+            alt="Social Icon"
+          />
+          <img
+          class="socialIcon"
+          src="./Images/akar-icons_twitter-fill.png"
+          alt="Social Icon"
+        /> 
+        <img
+        class="socialIcon"
+        src="./Images/bx_bxl-linkedin.png"
+        alt="Social Icon"
+      />
+        </div>
+      </div>
+      <div class="right">
+        <header>
+          <div class="menu">
+            <img class="appleLogo" src="./Images/Logo.png" alt="Logo" />
 
-        <section class="sectionBox">
-          <div class="textContainer">
-            <span class="text"
-              ><b>The Perfect Moment</b><br />Between Past And<br />Future.</span
-            >
-            <span class="buyNowBtn">Buy Now</span>
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Mac</a>
+                </li>
+                <li>
+                  <a href="#">iPhone</a>
+                </li>
+                <li>
+                  <a href="#">iPad</a>
+                </li>
+                <li class="activeBtn">
+                  <a href="#">iWatch</a>
+                </li>
+                <li>
+                  <a href="#">Support</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <div class="watchContainer">
-            <div class="watchAndDots">
-              <img class="watchImage" src="./Images/Watch.png" alt="" />
-              <span class="dotChain">
-                <span class="dot1"></span>
-                <span class="dotLine"></span>
-                <span class="dot2"></span>
-                <span class="dotLine"></span>
-                <span class="dot3"></span>
-                <span class="dotLine"></span>
-                <span class="dot4"></span>
-              </span>
+          <div class="rightSearch">
+            <div class="searchContainer">
+              <input
+                type="text"
+                name="search"
+                class="search-input"
+                placeholder="Search here"
+              />
+              <img
+                class="searchThings searchIconImage"
+                src="./Images/search.png"
+                alt="Search"
+              />
             </div>
-
-            <section class="watchesSection">
-              <span class="watches">
-                <img src="./Images/Watch 2.png" alt="" />
-                <img src="./Images/Watch 3.png" alt="" />
-                <img src="./Images/Watch 4.png" alt="" />
-              </span>
-            </section>
+            <span></span>
+            <img
+              class="searchThings"
+              src="./Images/shopping-bag.png"
+              alt="Shopping Bag"
+            />
           </div>
-        </section>
+        </header>
+        <main>
+          <div class="detail">
+            <p>
+              <b>The Perfect Moment</b><br />
+              Between Past And<br />
+              Future.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="imgBx">
+            <div class="imgSection">
+              <img class="watchImage" src="./Images/Watch.png" alt="Watch" />
+            </div>
+            <div class="container-indicator">
+              <div class="circle circle1"></div>
+              <span class="dot"></span>
+
+              <div class="circle circle2 active"></div>
+              <span class="dot"></span>
+
+              <div class="circle circle3"></div>
+              <span class="dot"></span>
+
+              <div class="circle circle4"></div>
+            </div>
+          </div>
+        </main>
+        <div class="bottomSection">
+          <div class="right-bottom-section-indicator">
+            <img src="./Images/Page Indicator.png" alt="" />
+          </div>
+          <div class="manyWatches">
+            <img src="./Images/Watch 2.png" alt="Watch 2" />
+            <img src="./Images/Watch 3.png" alt="Watch 3" />
+            <img src="./Images/Watch 4.png" alt="Watch 4" />
+          </div>
+        </div>
       </div>
     </div>
-
-
-    <script src="./Js/index.js"></script>
+    
   </body>
+  <script src="Js/index.js"></script>
 </html>
