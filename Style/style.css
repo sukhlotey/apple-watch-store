@@ -29,9 +29,9 @@ body {
   height: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;          
   flex-direction: column;
-  padding: 30px;
+  padding: 1.875rem;
   cursor: pointer;
 }
 
@@ -44,21 +44,21 @@ body {
   cursor: pointer;
 }
 .socialIcon {
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 .containerSection .right {
   width: 100%;
   height: 100%;
   background-color: rgba(171, 198, 214, 1);
-  padding: 50px;
-  border-radius: 15px 0 0 15px;
+  padding: 3.125rem;
+  border-radius: 0.938rem 0 0 0.938rem;
   transition: background-color 0.5s ease;
 }
 
 .containerSection .right header {
   position: relative;
-  height: 50px;
+  height: 3.125rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,9 +78,9 @@ body {
   align-items: center;
 }
 
-.containerSection .right header .menu svg {
+/* .containerSection .right header .menu svg {
   margin-right: 55px;
-}
+} */
 
 .containerSection .right header .menu nav {
   position: relative;
@@ -98,7 +98,7 @@ body {
 
 .containerSection .right header .menu nav ul li {
   list-style: none;
-  padding: 25px 40px;
+  padding: 1.563rem 2.5rem;
   display: flex;
 }
 
@@ -106,15 +106,15 @@ body {
   text-decoration: none;
   color: #fff;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .containerSection .right header .menu nav ul li.activeBtn {
   background-color: #ffffff;
-  width: 130px;
-  padding: 5px 0;
+  width: 8.125rem;
+  padding: 0.313rem 0;
   justify-content: center;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -129,63 +129,63 @@ body {
   align-items: center;
 }
 
-.containerSection .right header .rightSearch img {
+.containerSection .right header .rightSearch svg {
   cursor: pointer;
 }
 
 .containerSection .right header span {
   color: #fff;
-  height: 22px;
-  margin: 0 15px 0 5px;
+  height: 1.375rem;
+  margin: 0 0.938rem 0 0.313rem;
   border-left: 1px solid white;
 }
 
-.searchContainer .search-icons {
+.search-icons {
   position: absolute;
   cursor: pointer;
   top: 0.6rem;
   right: 3.3rem;
 }
 
-.searchContainer .search-input {
+ .search-input {
   width: 0;
-  border: 1px solid transparent;
+  border: 0.063rem solid transparent;
   transition: all 0.5s ease;
-  padding: 9px 45px 9px 25px;
-  font-size: 14px;
+  padding: 0.563rem 2.813rem 0.563rem 1.563rem;
+  font-size: 0.875rem;
   background: rgba(255, 255, 255, 0.27);
   opacity: 0;
   color: #fff;
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
-.searchContainer .search-input::placeholder {
+ .search-input::placeholder {
   color: #fff;
 }
 
-.searchContainer .search-input.open {
-  width: 295px;
+ .search-input.open {
+  width: 18.438rem;
   transition: all 0.5s ease;
   opacity: 1;
 }
 .search-input {
   width: 0;
-  padding: 9px 0;
+  padding: 0.563rem 0;
   border: none;
-  background-color: transparent;
+  background-color: #ffffff59;
   transition: width 0.3s ease;
   outline: none;
 }
 
 .search-input.open {
-  width: 150px; 
-  padding: 9px 10px;
+  width: 15.625rem; 
+  padding: 0.563rem 0.625rem;
 }
 
 .containerSection main {
   position: relative;
   width: 100%;
-  height: calc(100% - 150px);
+  height: calc(100% - 9.375rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -196,25 +196,25 @@ body {
 }
 
 .containerSection main .detail p {
-  font-size: 63px;
-  line-height: 86px;
+  font-size: 3.938rem;
+  line-height: 5.375rem;
   margin: 0;
   color: #fff;
-  width: 647.02px;
+  width: 40.439rem;
 }
 
 .containerSection main .detail button {
   color: white;
-  border: 3px solid #fff;
-  width: 250px;
-  height: 70px;
+  border: 0.188rem solid #fff;
+  width: 15.625rem;
+  height: 4.375rem;
   background: transparent;
-  border-radius: 100px;
-  font-size: 24px;
+  border-radius:100px;
+  font-size: 1.5rem;
   font-weight: 500;
-  line-height: 36px;
+  line-height: 2.25rem;
   cursor: pointer;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .containerSection main .imgBx {
@@ -241,7 +241,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .containerSection .bottomSection .right-bottom-section-indicator svg {
@@ -250,11 +250,11 @@ body {
 
 .containerSection .bottomSection span {
   color: #fff;
-  margin: 0 10px;
+  margin: 0 0.625rem;
 }
 
 .containerSection .bottomSection .manyWatches img {
-  margin: 0 10px;
+  margin: 0 0.625rem;
   transition: all 0.3s ease;
 }
 
@@ -267,12 +267,12 @@ body {
 }
 
 .circle {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   border-radius: 50%;
-  margin: -4px 0 8px 0;
+  margin: -0.25rem 0 0.5rem 0;
   position: relative;
-  border: 1px solid white;
+  border: 0.063rem solid white;
   cursor: pointer;
 }
 
@@ -292,93 +292,222 @@ body {
   background-color: rgba(242, 206, 198, 1);
 }
 .dot {
-  border-left: 1px dotted #fff;
-  height: 30px;
+  border-left: 0.063rem dotted #fff;
+  height: 1.875rem;
 }
 .circle2.active {
-  width: 30px;
-  height: 30px;
-  border: 3px solid #fff;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  width: 1.875rem;
+  height: 1.875rem;
+  border: 0.188rem solid #fff;
+  box-shadow: 0 0.063rem 0.25rem 0 rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s ease, border-radius 0.3s ease,
     width 0.3s ease, height 0.3s ease;
 }
 
 .container-indicator span {
-  margin-top: -21px;
+  margin-top: -1.313rem;
   color: #fff;
 }
 
-@media screen and (max-width: 1299px) {
+@media screen and (max-width: 80.625rem) {
   .containerSection main .detail p {
-    font-size: 50px;
-    line-height: 70px;
-    width: 513.5px;
+    font-size: 3.125rem;
+    line-height: 4.375rem;
+    width: 32.094rem;
   }
 
   .searchContainer .search-input.open {
-    width: 190px;
+    width: 11.875rem;
   }
 }
 
-@media screen and (max-width: 1186px) {
+@media screen and (max-width: 74.125rem) {
   .containerSection main .detail p {
-    font-size: 45px;
-    line-height: 60px;
-    width: 462.2px;
+    font-size: 2.813rem;
+    line-height: 3.75rem;
+    width: 28.888rem;
   }
 
   .containerSection .right header .menu nav ul li {
     list-style: none;
-    padding: 25px 15px;
+    padding: 1.563 0.938rem;
     display: flex;
   }
 
-  .containerSection .right header .menu svg {
-    margin-right: 15px;
-  }
-
   .searchContainer .search-input.open {
-    width: 232px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .containerSection .right header .search-icon a .fa-bars-staggered {
-    display: block;
+    width: 14.5rem;
   }
   
 
-  .containerSection main .detail button {
-    width: 151px;
-    height: 58px;
-    font-size: 18px;
-    line-height: 27px;
-    margin-top: 30px;
-  }
+}
 
+@media screen and (max-width: 61.938rem) {
   .containerSection main {
+    flex-direction: column;
+    height: calc(100% - 0.625rem);
+    display: flex;
+    align-items: center;
     justify-content: center;
   }
+  .containerSection .right header .menu nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75vw;
+    height: 93vh;
+    background-color: #fff;
+    display: none; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    transition: all 0.3s ease;
+  }
 
-  .containerSection main .detail p {
-    font-size: 32px;
-    line-height: 51px;
-    width: 340px;
+  .containerSection .right header .menu nav ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .containerSection .right header .menu nav ul li {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    &:hover {
+      background-color: #b6ccda;
+      color: #000;
+    }
+  }
+  .containerSection .right header .menu nav ul li a {
+    color: #b6ccda; 
+    width: 100%; 
+    display: inline-block;
+    text-align: center; 
+    padding: 1.25rem 0;
+    &:hover {
+      background-color: #b6ccda;
+      color: #000;
+    }
+  }
+
+  .containerSection .right header .menu.active nav {
+    display: flex; 
+  }
+  .containerSection main .detail button {
+    padding: 0.625rem 1.25rem;
+  }
+
+  .containerSection {
+    flex-direction: column;
+  }
+
+  .containerSection .left {
+    position: relative;
+    order: 2;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 5.625rem;
+  }
+
+  .containerSection .left .iconSocial {
+    display: flex;
+  }
+
+  .containerSection .right {
+    order: 1;
+    padding: 0rem;
+    border-radius: 0 0 1.563rem 1.563rem;
+    padding: 1% 5% 0 5%;
+  }
+
+  .containerSection .left .iconSocial {
+    flex-direction: row;
+  }
+  .socialIcon {
+    padding-left: 0.625rem;
+  }
+
+  .containerSection .bottomSection {
+    display: none;
   }
 
   .searchContainer .search-input.open {
-    width: 295px;
+    width: 15.625rem;
   }
 }
-.socialIcon {
-  padding-left: 10px;
-}
-
-@media screen and (max-width: 767px) {
+@media (max-width: 960px) {
   .containerSection main {
     flex-direction: column;
-    height: calc(100% - 10px);
+    height: calc(100% - 0.625rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerSection .right header .menu nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75vw;
+    height: 93vh;
+    background-color: #fff;
+    display: none; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    transition: all 0.3s ease;
+  }
+
+  .containerSection .right header .menu nav ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .containerSection .right header .menu nav ul li {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    &:hover {
+      background-color: #b6ccda;
+      color: #000;
+    }
+  }
+  .containerSection .right header .menu nav ul li a {
+    color: #b6ccda; 
+    width: 100%; 
+    display: inline-block;
+    text-align: center; 
+    padding: 1.25rem 0;
+    &:hover {
+      background-color: #b6ccda;
+      color: #000;
+    }
+  }
+
+  .containerSection .right header .menu.active nav {
+    display: flex; 
+  }
+  .containerSection .right {
+    order: 1;
+   
+    height: 92%;
+    border-radius: 0 0 1.563rem 1.563rem;
+    padding: 1% 5% 0 5%;
+  }
+  .imgSection{
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 47.938rem) {
+  .containerSection main {
+    flex-direction: column;
+    height: calc(100% - 0.625rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -418,7 +547,7 @@ body {
     width: 100%; 
     display: inline-block;
     text-align: center; 
-    padding: 20px 0;
+    padding: 1.25rem 0;
     &:hover {
       background-color: #b6ccda;
       color: #000;
@@ -429,7 +558,7 @@ body {
     display: flex; 
   }
   .containerSection main .detail button {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
   }
 
   .containerSection {
@@ -444,7 +573,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
+    height: 5.625rem;
   }
 
   .containerSection .left .iconSocial {
@@ -453,15 +582,16 @@ body {
 
   .containerSection .right {
     order: 1;
-    padding: 30px;
-    border-radius: 0 0 25px 25px;
+    padding: 1.875rem;
+    margin-bottom: 10px;
+    border-radius: 0 0 1.563rem 1.563rem;
   }
 
   .containerSection .left .iconSocial {
     flex-direction: row;
   }
   .socialIcon {
-    padding-left: 10px;
+    padding-left: 0.625rem;
   }
 
   .containerSection .bottomSection {
@@ -469,45 +599,46 @@ body {
   }
 
   .searchContainer .search-input.open {
-    width: 250px;
+    width: 15.625rem;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 26.563rem) {
   .containerSection main .imgBx .imgSection img {
-    width: 260px;
+    width: 16.25rem;
   }
 
   .searchContainer .search-input.open {
-    width: 205px;
+    width: 12.813rem;
   }
+  
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 23.438rem) {
   .containerSection main .detail p {
-    font-size: 26px;
-    line-height: 36px;
-    width: 268px;
+    font-size: 1.625rem;
+    line-height: 2.25rem;
+    width: 16.75rem;
   }
 
   .containerSection main .imgBx .imgSection img {
-    width: 200px;
+    width: 12.5rem;
   }
 
   .containerSection main .detail button {
-    width: 131px;
-    height: 48px;
-    font-size: 16px;
-    line-height: 17px;
-    margin-top: 15px;
+    width: 8.188rem;
+    height: 3rem;
+    font-size: 1rem;
+    line-height: 1.063rem;
+    margin-top: 0.938rem;
   }
 
   .containerSection .right {
-    padding: 15px 20px;
+    padding: 0.938rem 1.25rem;
   }
 
   .containerSection .left {
-    height: 80px;
+    height: 5rem;
   }
 
 }
